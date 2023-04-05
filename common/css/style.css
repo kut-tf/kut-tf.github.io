@@ -567,11 +567,10 @@ main 全般
   right: 20px;
   top: calc(50% - 132px);
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   #hero::before,
   #hero::after{
     position: fixed;
-    top: calc(50% - 40px);
   }
 }
 #hero-sm{
