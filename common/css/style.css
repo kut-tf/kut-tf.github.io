@@ -552,7 +552,7 @@ main 全般
 #hero::before{
   content: "";
   position: absolute;
-  background: url(../common/img/hero-en-left.png) 0 0 / 8px 263px no-repeat;
+  background: url(../img/hero-en-left.png) 0 0 / 8px 263px no-repeat;
   width: 8px;
   height: 263px;
   left: 20px;
@@ -561,7 +561,7 @@ main 全般
 #hero::after{
   content: "";
   position: absolute;
-  background: url(../common/img/hero-en-right.png) 0 0 / 8px 263px no-repeat;
+  background: url(../img/hero-en-right.png) 0 0 / 8px 263px no-repeat;
   width: 8px;
   height: 263px;
   right: 20px;
@@ -585,7 +585,7 @@ main 全般
 #hero-sm::before{
   content: "";
   position: absolute;
-  background: url(../common/img/hero-en-left.png) 0 0 / 6px 184px no-repeat;
+  background: url(../img/hero-en-left.png) 0 0 / 6px 184px no-repeat;
   width: 6px;
   height: 184px;
   left: 20px;
@@ -594,7 +594,7 @@ main 全般
 #hero-sm::after{
   content: "";
   position: absolute;
-  background: url(../common/img/hero-en-right.png) 0 0 / 6px 184px no-repeat;
+  background: url(../img/hero-en-right.png) 0 0 / 6px 184px no-repeat;
   width: 6px;
   height: 184px;
   right: 20px;
