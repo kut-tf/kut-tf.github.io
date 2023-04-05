@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="9.5249996mm"
+   height="9.5249996mm"
+   viewBox="0 0 9.5249996 9.5249996"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="q-icon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="7.9421345"
+     inkscape:cx="26.315344"
+     inkscape:cy="29.08538"
+     inkscape:window-width="1920"
+     inkscape:window-height="986"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-48.899148,-95.635182)">
+    <circle
+       style="fill:#ff0000;stroke:none;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round"
+       id="path1476"
+       cx="53.661648"
+       cy="100.39768"
+       r="4.7624998" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.35px;font-family:Meiryo;-inkscape-font-specification:'Meiryo Bold';fill:#ffffff;stroke:none;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round"
+       x="51.037003"
+       y="102.3588"
+       id="text236"><tspan
+         sodipodi:role="line"
+         id="tspan234"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.35px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Bold';fill:#ffffff;stroke:none;stroke-width:0.2"
+         x="51.037003"
+         y="102.3588">Q</tspan></text>
+  </g>
+</svg>

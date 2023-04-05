@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="86.959808mm"
+   height="73.503693mm"
+   viewBox="0 0 86.959808 73.503693"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="logo-en.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     showguides="false"
+     inkscape:zoom="0.99276681"
+     inkscape:cx="282.04005"
+     inkscape:cy="183.32603"
+     inkscape:window-width="1920"
+     inkscape:window-height="986"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-5.9004136,-4.9631037)">
+    <text
+       xml:space="preserve"
+       style="font-size:22.5778px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;stroke-width:0.264583"
+       x="5.0074439"
+       y="21.124752"
+       id="text113"><tspan
+         sodipodi:role="line"
+         id="tspan111"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold Italic';fill:#ffffff;stroke-width:0.264583"
+         x="5.0074439"
+         y="21.124752">KUT.</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold Italic';fill:#ffffff;stroke-width:0.264583"
+         x="5.0074439"
+         y="49.60836"
+         id="tspan325">TRACK</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold Italic';fill:#ffffff;stroke-width:0.264583"
+         x="5.0074439"
+         y="78.091972"
+         id="tspan327">&amp; FIELD</tspan></text>
+  </g>
+</svg>
