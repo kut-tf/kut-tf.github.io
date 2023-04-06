@@ -3,21 +3,46 @@ $(function(){
 スマホメニュー
 =======================================*/
   //ハンバーガーメニューのクリックイベント
-  $('#btn-menu').on('click', function() {
+  /* $('#btn-menu').on('click', function() {
     if ($('#btn-menu').hasClass('open')) {
-      $('#btn-menu').removeClass('open');
       $('.g-nav').removeClass('open');
     } else {
-      $('#btn-menu').addClass('open');
       $('.g-nav').addClass('open');
     }
-  });
-  $('.g-nav-links-item-link').on('click', function() {
-    if ($('#btn-menu').hasClass('open')){
-      $('#btn-menu').removeClass('open');
-      $('.g-nav').removeClass('open');
+  }); */
+  /* 4/6追加 */
+  $('#btn-menu').on('click', function() {
+    if ($('#hd').hasClass('open')) {
+      $('#hd').removeClass('open');
+    } else {
+      $('#hd').addClass('open');
     }
-  })
+  });
+  //#maskエリアをクリック時、メニューを閉じる
+  $('#mask').on('click', function() {
+    $('#hd').removeClass('open');
+  });
+  //通常リンクをクリック時、メニューを閉じる
+  $('.g-nav-links-item-link').on('click', function() {
+    if ($('#hd').hasClass('open')){
+      $('#hd').removeClass('open');
+    }
+  });
+  //SNSリンクをクリック時、メニューを閉じる
+  $('.g-nav-links-item-link-sns').on('click', function() {
+    if ($('#hd').hasClass('open')){
+      $('#hd').removeClass('open');
+    }
+  });
+  //メニューを開いていてレスポンシブサイズより画面が大きくなった時、openクラスを削除する。
+  $(window).on("resize", function(){
+    const smWindowSize = 1023;
+    if ($('#hd').hasClass('open')){
+      if (window.innerWidth <=  smWindowSize) {
+       $("#hd").removeClass("open").addClass();
+      }
+    }
+  });
 
   //ヘッダー
   var startPos = 0;
