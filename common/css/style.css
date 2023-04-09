@@ -1466,7 +1466,8 @@ CV-SECTION
 /* ================================
 #NEWS-CONTENTS
 ==================================*/
-#news{
+#news main,
+#news footer{
   background: var(--news-color);
 }
 .news-contents{
