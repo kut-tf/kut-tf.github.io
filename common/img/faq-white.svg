@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="255.56189mm"
+   height="83.688736mm"
+   viewBox="0 0 255.56189 83.688737"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="faq-white.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="false"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.76508705"
+     inkscape:cx="407.79673"
+     inkscape:cy="120.24775"
+     inkscape:window-width="1920"
+     inkscape:window-height="986"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="-156.84489"
+       y="-87.571732"
+       width="1249.531"
+       height="492.75439"
+       id="rect3997" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-38.124008,-5.3563194)">
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:50.8px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Bold';fill:#ffffff;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round"
+       x="37.099792"
+       y="42.213196"
+       id="text1677"><tspan
+         sodipodi:role="line"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:50.8px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Bold Italic';fill:#ffffff;stroke-width:0.2"
+         x="37.099792"
+         y="42.213196"
+         id="tspan3991">QUESTION</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.7556px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#ffffff;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round"
+       x="106.25099"
+       y="85.445137"
+       id="text1731"><tspan
+         sodipodi:role="line"
+         id="tspan1729"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.7556px;font-family:HGSGothicM;-inkscape-font-specification:HGSGothicM;fill:#ffffff;stroke-width:0.2"
+         x="106.25099"
+         y="85.445137">よくある質問</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,31.55843,4.7428088)"
+       id="text3995"
+       style="font-size:74.6667px;font-family:HGSGothicM;-inkscape-font-specification:HGSGothicM;white-space:pre;shape-inside:url(#rect3997);fill:#000000;stroke-width:0.755906;stroke-linecap:round;stroke-linejoin:round" />
+  </g>
+</svg>
