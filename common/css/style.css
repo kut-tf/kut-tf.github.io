@@ -40,6 +40,7 @@ html{
 --green:#075a07;
 --green-hover: #5ed55e;
 --blue: #1ea8da;
+--news-color: #fdfbed;
 --text-color: #333;
 --text-color-light: #888682;
 --border-color: #484848;
@@ -572,6 +573,9 @@ main 全般
 @media screen and (max-width: 1023px) {
   main{
     margin-top: 7rem;
+  }
+  #news main{
+    margin-top: 0;
   }
 }
 .w-inner{
@@ -1230,7 +1234,7 @@ CV-SECTION
   width: 100%;
   max-width: 1000px;
   padding: 5rem;
-  background: #fdfbed;
+  background: var(--news-color);
   border-radius: 30px;
   box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.4), 10px 10px 0px 0px rgba(0, 0, 0, 0.3), 15px 15px 0px 0px rgba(0, 0, 0, 0.2), 20px 20px 0px 0px rgba(0, 0, 0, 0.1), -1px -1px 5px 0px rgba(0, 0, 0, 0.2);
 }@media screen and (max-width: 750px) {
@@ -1353,7 +1357,7 @@ CV-SECTION
   /* ============
   あとで復活
   =============== */
-  pointer-events: none;
+  /* pointer-events: none; */
   /* ============
   あとで復活
   =============== */
@@ -1459,7 +1463,146 @@ CV-SECTION
 .newsBtn-sp-link:hover::after{
   transform: scale(1, 1);
 }
+/* ================================
+#NEWS-CONTENTS
+==================================*/
+#news{
+  background: var(--news-color);
+}
+.news-contents{
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+}
+.news-container{
+  background: var(--white-color);
+  border-radius: 1rem;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.16);
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 50px;
+  width: 100%;
+}@media screen and (max-width: 767px) {
+  .news-container{
+    padding: 20px;
+  }
+}
+.news-contents-main{
+  width: 100%;
+  padding: 1rem;
+  min-height: 300px;
+}
 
+.news-head{
+  /* background-color: #5ed55e; */
+  width: 100%;
+  position: relative;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+}
+.news-date{
+  background: var(--orange);
+  border-radius: 10%;
+  color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  font-family: var(--noto-font);
+  font-size: var(--h2-font);
+  text-align: center;
+  letter-spacing: 3px;
+  margin-right: 2rem;
+}@media screen and (max-width: 600px) {
+  .news-date{
+    font-size: var(--h4-font);
+    width: 70px;
+    height: 70px;
+  }
+}@media screen and (max-width: 400px) {
+  .news-date{
+    margin-right: 1rem;
+  }
+}
+.news-date span{
+  font-size: var(--small-font);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  padding-top: 6px;
+  letter-spacing: 1px;
+  width: 70%;
+  margin: 0 auto;
+}
+.news-title{
+  font-family: var(--noto-font);
+  font-size: var(--h2-font);
+  margin-bottom: 1rem;
+}@media screen and (max-width: 400px) {
+  .news-title{
+    font-size: var(--h4-font);
+  }
+}
+.news-category{
+  font-size: var(--normal-font);
+}@media screen and (max-width: 400px) {
+  .news-category{
+    font-size: var(--small-font);
+  }
+}
+.news-imgArea{
+  background: rgba(0, 0, 0, 0.2);
+  padding: 0.5rem;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+}
+.news-textArea{
+  padding-bottom: 1rem;
+}
+.news-text{
+  padding-bottom: 1rem;
+}
+/* ================================
+#NEWS-LINKBTN
+==================================*/
+.news-contents-sub{
+  margin-top: 3rem;
+  padding-top: 3rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+.news-linkBtn-inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.news-Btn-link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.8s;
+}@media screen and (min-width: 601px) {
+  .news-Btn-link{
+    color: var(--white-color);
+    font-size: var(--h4-font);
+    background: var(--text-color-light);
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+  }
+}@media screen and (max-width: 600px) {
+  .news-Btn-link{
+    color: var(--text-color);
+    font-size: var(--small-font);
+    padding: 0;
+  }
+}
+@media screen and (min-width: 601px) {
+  .news-Btn-link:hover{
+    background: var(--text-color);
+    color: var(--white-color);
+  }
+}
+.newsBtn-icon{
+  font-size: 3rem;
+}
 /* ================================
 よくある質問section
 ==================================*/
