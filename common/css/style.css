@@ -1221,10 +1221,19 @@ CV-SECTION
 /* ===================================
 #NEWS
 =====================================*/
+/* ===================================
+#NEWSLIST
+=====================================*/
+#newsList{
+  background: var(--news-color);
+}
 /* newsエリア */
 .news{
   padding-top: 10rem;
   position: relative;
+}
+#newsList .news{
+  padding-top: 3rem;
 }
 .news-inner{
   display: flex;
@@ -1249,6 +1258,13 @@ CV-SECTION
     border-radius: 1rem;
   }
 }
+#newsList .news-inner{
+  justify-content: center;
+  box-shadow: none;
+  border-radius: 0;
+  flex-direction: column;
+  max-width: 900px;
+}
 .news-block-ttl{
   height: 100px;
   flex: 0 1 100%;
@@ -1263,6 +1279,13 @@ CV-SECTION
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
+}
+#newsList .news-block-ttl{
+  flex: 0 1 auto;
+  padding-bottom: 2rem;
+  margin-bottom: 5rem;
+  text-align: center;
+  justify-content: center;
 }
 .news-ttl{
   text-align: center;
@@ -1307,8 +1330,8 @@ CV-SECTION
   /* ============
   あとで復活
   =============== */
-  pointer-events: none;
-  display: none;
+  /* pointer-events: none;
+  display: none; */
   /* ============
   あとで復活
   =============== */
@@ -1347,6 +1370,10 @@ CV-SECTION
     max-width: 100%;
     padding: 1rem;
   }
+}
+#newsList .news-block{
+  flex: 0 0 auto;
+  max-width: 100%;
 }
 .newsItem-link{
   border-top: 1px dotted var(--text-color-light);
@@ -1434,11 +1461,11 @@ CV-SECTION
 }/* ============
   あとで復活
   =============== */
-/* @media screen and (max-width: 750px) {
+@media screen and (max-width: 750px) {
   .newsBtn-sp{
     display: block;
   }
-} */
+}
 /* ============
   あとで復活
   =============== */
@@ -1767,7 +1794,7 @@ CV-SECTION
   padding-top: 40px;
 }
 .f-pc .f-row:first-child{
-  min-width: 190px;
+  min-width: 195px;
 }
 .f-column{
   display: flex;
