@@ -1224,10 +1224,6 @@ CV-SECTION
 /* ===================================
 #NEWSLIST
 =====================================*/
-#newsList main,
-#newsList footer{
-  background: var(--news-color);
-}
 /* newsエリア */
 .news{
   padding-top: 10rem;
@@ -1261,8 +1257,6 @@ CV-SECTION
 }
 #newsList .news-inner{
   justify-content: center;
-  box-shadow: none;
-  border-radius: 0;
   flex-direction: column;
   max-width: 900px;
 }
