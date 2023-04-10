@@ -1224,7 +1224,8 @@ CV-SECTION
 /* ===================================
 #NEWSLIST
 =====================================*/
-#newsList{
+#newsList main,
+#newsList footer{
   background: var(--news-color);
 }
 /* newsエリア */
