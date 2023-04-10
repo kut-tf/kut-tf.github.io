@@ -1485,11 +1485,19 @@ CV-SECTION
   .news-container{
     padding: 20px;
   }
+}@media screen and (max-width: 600px) {
+  .news-container{
+    padding: 10px;
+  }
 }
 .news-contents-main{
   width: 100%;
   padding: 1rem;
   min-height: 300px;
+}@media screen and (max-width: 767px) {
+  .news-contents-main{
+    padding: 5px;
+  }
 }
 
 .news-head{
@@ -1560,6 +1568,7 @@ CV-SECTION
 }
 .news-text{
   padding-bottom: 1rem;
+  line-height: 1.7;
 }
 /* ================================
 #NEWS-LINKBTN
