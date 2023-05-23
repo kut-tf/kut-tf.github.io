@@ -1,6 +1,3 @@
-plugins:
- - jekyll-sitemap
-
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-L1C7L0EPEP"></script>
 <script>
@@ -10,3 +7,6 @@ plugins:
 
   gtag('config', 'G-L1C7L0EPEP');
 </script>
+
+plugins:
+ - jekyll-sitemap
